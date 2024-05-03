@@ -1,8 +1,6 @@
 import { Request,Response } from "express"
 import { s_all_users, s_create_user, s_delete_user, s_update_user } from "../usersdata/user.data"
-
-//ManikantaPatel PrashanthPatel VivekPatel EleandharPatel ManaswiniPatel ManishaPatel
-//ManikantaPatel PrashanthPatel VivekPatel EleandharPatel ManaswiniPatel ManishaPatel
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 export const all_users=async (req:Request,res:Response)=>{
 
     const result=await s_all_users(req,res)
