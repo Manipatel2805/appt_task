@@ -1,7 +1,7 @@
 import express  from "express";
 export const user_route=express.Router();
-//ManikantaPatel PrashanthPatel VivekPatel EleandharPatel ManaswiniPatel ManishaPatel
-//ManiPatel PashiPatel VivPatel ElePatel ManasPatel ManiPatel
+//DEVARAAAAAAAAAAA
+//NTRRRRRRRRRRRR
 import { all_users, create_users, delete_user, update_user } from "../controller/user_controller";
 
 user_route.get("/",all_users)
